@@ -1,0 +1,166 @@
+.Magasin{
+    width: 1900px;
+    /* height: 1281px; */
+    margin-top: 174px;
+    /* border:1px solid black; */
+    margin-left: 0 !important;
+    z-index: 9999;
+    position: relative;
+}
+
+.infomag{
+    /* border:1px solid black; */
+    padding-left: 140px;
+    width: 1320px;
+    height: 700px;
+    background-color: #fff;
+    z-index: 9999;
+}
+
+/* Tableaux */
+table{
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+.td1{
+    width: 237px;
+    color: #fff;
+    background-color: #000;
+}
+
+.td2{
+    width: 189px;
+}
+
+.table2{
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.textmag{
+    display: block;
+    width: 1023px;
+    height: 216px;
+    margin-top: 42px;
+    margin-bottom: 72px;
+}
+.textmag p{
+    display: block;
+    font-size: 20px;
+    color: #615B57;
+    margin-right: 74px;
+}
+
+.infomag button{
+    width: 331px;
+    height: 59px;
+    border-radius: 30px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 29px;
+    border: 0;
+    margin-bottom: 110px;
+}
+
+.infomag button:hover{
+    background-color: grey;
+}
+/* Carousel */
+.img-div{
+    width: 536px;
+    height: 560px;
+    margin-right:20px ;
+}
+.carrousel{
+    width: 1903px;
+    height: 560px;
+    margin-bottom: 266px;
+}
+.slider{
+    z-index: 999;
+    position: relative;
+    background-color: #fff;
+
+}
+.div01{
+    background-image: url("/assets/img/c1.png");
+    /* background-image: url("assets/img/c1.png"); */
+    /* background-size: cover; */
+    /* background-color: red; */
+    width: 536px;
+    height: 560px;
+    
+}
+.div02{
+    background-image: url("/assets/img/c2.png");
+    background-size: cover;
+    width: 536px;
+    height: 560px;
+}
+.div3{
+    background-image: url("/assets/img/c1.png");
+    /* background-size: cover; */
+    width: 536px;
+    height: 560px;
+}
+.div4{
+    background-image: url("/assets/img/c2.png");
+    /* background-size: cover; */
+    width: 536px;
+    height: 560px;
+}
+
+.div5{
+    background-image: url("/assets/img/c1.png");
+    /* background-size: cover; */
+    width: 536px;
+    height: 560px;
+}
+.div6{
+    background-image: url("/assets/img/c2.png");
+    background-size: cover;
+    width: 536px;
+    height: 560px;
+}
+.div7{
+    background-image: url("/assets/img/c1.png");
+    /* background-size: cover; */
+    width: 536px;
+    height: 560px;
+}
+.div8{
+    background-image: url("/assets/img/c2.png");
+    /* background-size: cover; */
+    width: 536px;
+    height: 560px;
+}
+.div9{
+    background-image: url("/assets/img/c2.png");
+    /* background-size: cover; */
+    width: 536px;
+    height: 560px;
+}
+
+.carrousel button{
+    width: 140px;
+    height: 560px;
+    font-weight: bold;
+    background: #CFC8C6;
+    border:0;
+    left: 1763px;
+    bottom:560px;
+    z-index: 10000;
+    position: relative;
+    cursor: pointer;
+    font-size: 25px;
+}
+.carrousel button:hover{
+    background-color:#b6aeac ;
+}
